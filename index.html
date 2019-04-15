@@ -1,1 +1,364 @@
-<h1>Hello World !</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CV Carlos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!--Local-->
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <a class="navbar-brand" href="#"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+            <i class="fas fa-bars fa-lg"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+            <ul class="nav nav-pills navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about">Moi</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                <li class="nav-item"><a class="nav-link" href="#languages">Langues</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <section id="about" class="container-fluid">
+        <div class="col-xs-8 col-md-4 profile-picture">
+            <img src="./images/me.jpg" alt="Carlos" class="rounded-circle">
+        </div>
+        <div class="heading">
+            <h1>Hello, moi c'est Carlos</h1>
+            <h3>Développeur Web</h3>
+            <a href="./sources/CV-CARLOS.pdf" class="button1">Télécharger CV</a>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="orange-divider"></div>
+        <div class="heading">
+            <h2>Compétences</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h3 class="text-center">Languages</h3>
+                    </div>
+                    <div class="progress" style="height: 30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                            aria-valuemax="100" style="width:80%">
+                            <h5>HTML - 8 / 10</h5>
+                        </div>
+                    </div>
+                    <div class="progress" style="height: 30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                            aria-valuemax="100" style="width:70%">
+                            <h5>CSS - 7 / 10</h5>
+                        </div>
+                    </div>
+                    <div class="progress" style="height: 30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                            aria-valuemax="100" style="width:55%">
+                            <h5>Javascript - 5.5 / 10</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <h3 class="text-center">Outils</h3>
+                    </div>
+                    <div class="progress" style="height: 30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                            aria-valuemax="100" style="width:70%">
+                            <h5>BOOTSTRAP - 7 / 10</h5>
+                        </div>
+                    </div>
+                    <div class="progress" style="height: 30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100" style="width:50%">
+                            <h5>jQuery - 5 / 10</h5>
+                        </div>
+                    </div>
+                    <div class="progress" style="height: 30px;">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                            aria-valuemax="100" style="width:40%">
+                            <h5>React - 4 / 10</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Expériences Professionnelle</h2>
+            </div>
+            <ul class="timeline">
+                <!--1st experience -->
+                <li>
+                    <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>AGENCE INTERIM</h3>
+                                <h4>Electricien</h4>
+                                <p class="text-muted"><i class="far fa-clock fal-xs"></i> 2012-2018</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Installation et câblage réseau informatique</p>
+                                <p>Installation électrique</p>
+                                <p>Dépose d’installation électrique</p>
+                                <p>Câblage d’armoire électrique industrielle</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--2nd experience -->
+                <li>
+                    <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>SOLAR AND CO</h3>
+                                <h4>Electricien Photovoltaïque</h4>
+                                <p class="text-muted"><i class="far fa-clock fal-xs"></i> 2012</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Raccordement des installations photovoltaïques</p>
+                                <p>Encoder les ID de panneaux dans une base de donnée</p>
+                                <p>Ouvrir les ports pour un monitoring des panneaux via internet</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--3rd experience -->
+                <li>
+                    <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>AGENCE INTERIM</h3>
+                                <h4>Electricien Cableur</h4>
+                                <p class="text-muted"><i class="far fa-clock fal-xs"></i> 2010-2011</p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Installation électrique</p>
+                                <p>Câblage d’armoire électrique industrielle</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="orange-divider"></div>
+        <div class="heading">
+            <h2>Education</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2015 & 2018</h5>
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>E-Learning</h3>
+                        <h4>"Hardware" & "Développeur Web"</h4>
+                        <div class="orange-divider"></div>
+                        <p>HTML/CSS,Responsive Design </p>
+                        <p>Javascript, JQuery, Bootstrap, React</p>
+                        <p>Hardware</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2004 - 2008</h5>
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Institut Don Bosco – Verviers</h3>
+                        <h4>Qualifier Electricien Monteur Câbleur</h4>
+                        <div class="orange-divider"></div>
+                        <p>Installation électrique domestique</p>
+                        <p>Moteur asynchrone triphasé</p>
+                        <p>Programmation d’un automate Siemens LOGO!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="thumbnail" href="./top5.html" target="_blank">
+                        <img src="./images/top5.jpg" alt="Actrice Top5">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="thumbnail" href="./snake.html" target="_blank">
+                        <img src="./images/snakegame.png" alt="Snake">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="thumbnail" href="./agency.html" target="_blank">
+                        <img src="./images/travel-agency.jpg" alt="Travel Agency">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="thumbnail" href="https://github.com/goniti" target="_blank">
+                        <img src="./images/github-logo.jpg" alt="my github">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="thumbnail" href="https://github.com/goniti/todolistReactBootstrap" target="_blank">
+                        <img src="./images/todolist.jpg" alt="Todolist">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="thumbnail" href="https://github.com/goniti/videoApp" target="_blank">
+                        <img src="./images/reactjs-logo.jpg" alt="App video">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="hobbies">
+        <div class="container">
+            <div class="orange-divider"></div>
+            <div class="heading">
+                <h2>Centre d’intérêt</h2>
+            </div>
+
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="myCarousel" data-slide-to="1"></li>
+                    <li data-target="myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <h3>Nouvelle Technologie</h3>
+                        <h4>Stockage de l’énergie - Robotique - High tech</h4>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Réparer, Bricoler</h3>
+                        <h4>Ordinateurs - Equipement électrique - Mobilier</h4>
+                    </div>
+                    <div class="carousel-item">
+                        <h3>Lecture</h3>
+                        <h4>Biographie - Science Fiction - Roman fantastiques</h4>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" role="button">
+                    <span class="fas fa-chevron-left fa-2x"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next" role="button">
+                    <span class="fas fa-chevron-right fa-2x"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <section id="languages">
+
+        <div class="container">
+            <div class="white-divider"></div>
+            <div class="heading">
+                <h2>Langues</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-3" style="font-size: 4.5rem;">
+                    <div class="french">
+                        <div class="language-badge"><i class="fas fa-home"></i></div>
+                        <h3>Français</h3>
+                        <h5>Langue Courante</h5>
+                    </div>
+                </div>
+                <div class="col-sm-3" style="font-size: 4.5rem;">
+                    <div class="english">
+                        <div class="language-badge"><i class="fas fa-globe"></i></div>
+                        <h3>Anglais</h3>
+                        <h5>Niveau Basique</h5>
+                    </div>
+                </div>
+                <div class="col-sm-3" style="font-size: 4.5rem;">
+                    <div class="espagnol">
+                        <div class="language-badge"><i class="fas fa-users"></i></div>
+                        <h3>Espagnol</h3>
+                        <h5>Langue Maternelle</h5>
+                    </div>
+                </div>
+                <div class="col-sm-3" style="font-size: 4.5rem;">
+                    <div class="italian">
+                        <div class="language-badge"><i class="fas fa-braille"></i></div>
+                        <h3>Italien</h3>
+                        <h5>Langue Maternelle</h5>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+
+    <footer class="text-center">
+        <a class="footer-glyphicon" href="#about"><i class="fas fa-chevron-circle-up"></i></a>
+        <h5></h5>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6" style="font-size: 4.5rem;">
+                    <div class="adress">
+                        <div style="font-size: 0.5rem;"><i class="fas fa-map-marker-alt fa-2x"></i></div>
+                        <h6>France, Issoudun</h6>
+                    </div>
+                </div>
+                <div class="col-sm-6" style="font-size: 4.5rem;">
+                    <h5>© <span id="date-copyright">2018</span> carlosgonzalezlovullo.fr</h5>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--SCRIPTS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous">
+    </script>
+    <script src="./scripts/main.js"></script>
+
+</body>
+
+</html>
